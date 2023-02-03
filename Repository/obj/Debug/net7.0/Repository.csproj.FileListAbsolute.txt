@@ -1,0 +1,17 @@
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/Repository.csproj.AssemblyReference.cache
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/Repository.AssemblyInfoInputs.cache
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/Repository.AssemblyInfo.cs
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/Repository.csproj.CoreCompileInputs.cache
+/Users/robertochavez/Projects/OperationsAPI/Repository/bin/Debug/net7.0/Repository.deps.json
+/Users/robertochavez/Projects/OperationsAPI/Repository/bin/Debug/net7.0/Repository.dll
+/Users/robertochavez/Projects/OperationsAPI/Repository/bin/Debug/net7.0/Repository.pdb
+/Users/robertochavez/Projects/OperationsAPI/Repository/bin/Debug/net7.0/Contracts.dll
+/Users/robertochavez/Projects/OperationsAPI/Repository/bin/Debug/net7.0/Entities.dll
+/Users/robertochavez/Projects/OperationsAPI/Repository/bin/Debug/net7.0/Contracts.pdb
+/Users/robertochavez/Projects/OperationsAPI/Repository/bin/Debug/net7.0/Entities.pdb
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/Repository.csproj.CopyComplete
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/Repository.dll
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/refint/Repository.dll
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/Repository.pdb
+/Users/robertochavez/Projects/OperationsAPI/Repository/obj/Debug/net7.0/ref/Repository.dll

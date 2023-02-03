@@ -1,0 +1,14 @@
+/Users/robertochavez/Projects/OperationsAPI/Entities/bin/Debug/net7.0/Entities.deps.json
+/Users/robertochavez/Projects/OperationsAPI/Entities/bin/Debug/net7.0/Entities.runtimeconfig.json
+/Users/robertochavez/Projects/OperationsAPI/Entities/bin/Debug/net7.0/Entities.dll
+/Users/robertochavez/Projects/OperationsAPI/Entities/bin/Debug/net7.0/Entities.pdb
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/Entities.AssemblyInfoInputs.cache
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/Entities.AssemblyInfo.cs
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/Entities.csproj.CoreCompileInputs.cache
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/Entities.dll
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/refint/Entities.dll
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/Entities.pdb
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/Entities.genruntimeconfig.cache
+/Users/robertochavez/Projects/OperationsAPI/Entities/obj/Debug/net7.0/ref/Entities.dll

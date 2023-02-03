@@ -1,0 +1,15 @@
+/Users/robertochavez/Projects/OperationsAPI/Contracts/bin/Debug/net7.0/Contracts.deps.json
+/Users/robertochavez/Projects/OperationsAPI/Contracts/bin/Debug/net7.0/Contracts.dll
+/Users/robertochavez/Projects/OperationsAPI/Contracts/bin/Debug/net7.0/Contracts.pdb
+/Users/robertochavez/Projects/OperationsAPI/Contracts/bin/Debug/net7.0/Entities.dll
+/Users/robertochavez/Projects/OperationsAPI/Contracts/bin/Debug/net7.0/Entities.pdb
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/Contracts.csproj.AssemblyReference.cache
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/Contracts.AssemblyInfoInputs.cache
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/Contracts.AssemblyInfo.cs
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/Contracts.csproj.CoreCompileInputs.cache
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/Contracts.csproj.CopyComplete
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/Contracts.dll
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/refint/Contracts.dll
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/Contracts.pdb
+/Users/robertochavez/Projects/OperationsAPI/Contracts/obj/Debug/net7.0/ref/Contracts.dll
