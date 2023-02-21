@@ -23,5 +23,7 @@ public partial class Account
 
     public virtual Client Client { get; set; } = null!;
 
+    public virtual ICollection<Log> Logs { get; } = new List<Log>();
+
     public virtual ICollection<UserAccountMember> UserAccountMembers { get; } = new List<UserAccountMember>();
 }

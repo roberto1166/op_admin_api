@@ -29,7 +29,6 @@ public partial class OperationsContext : DbContext
 
     public virtual DbSet<UserAccountMember> UserAccountMembers { get; set; }
 
-    
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -104,19 +103,33 @@ public partial class OperationsContext : DbContext
 
             entity.ToTable("log");
 
+            entity.HasIndex(e => e.AccountId, "accountFk_idx");
+
             entity.HasIndex(e => e.LogCatalogId, "logCatalogFk_idx");
 
+            entity.HasIndex(e => e.UserId, "userFk_idx");
+
             entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.AccountId).HasColumnName("accountId");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP")
                 .HasColumnType("datetime")
                 .HasColumnName("createdAt");
             entity.Property(e => e.LogCatalogId).HasColumnName("logCatalogId");
+            entity.Property(e => e.UserId).HasColumnName("userId");
+
+            entity.HasOne(d => d.Account).WithMany(p => p.Logs)
+                .HasForeignKey(d => d.AccountId)
+                .HasConstraintName("logAccountFk");
 
             entity.HasOne(d => d.LogCatalog).WithMany(p => p.Logs)
                 .HasForeignKey(d => d.LogCatalogId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("logCatalogFk");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Logs)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("logUserIdFk");
         });
 
         modelBuilder.Entity<LogCatalog>(entity =>
@@ -153,7 +166,9 @@ public partial class OperationsContext : DbContext
             entity.ToTable("role");
 
             entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Active).HasColumnName("active");
+            entity.Property(e => e.Active)
+                .HasDefaultValueSql("'1'")
+                .HasColumnName("active");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP")
                 .HasColumnType("datetime")

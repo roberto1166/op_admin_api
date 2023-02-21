@@ -10,9 +10,27 @@
     <None Remove="Models\" />
     <None Remove="MySql.EntityFrameworkCore" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="DataTransferObjects\" />
+    <None Remove="DataTransferObjects\Account\" />
+    <None Remove="DataTransferObjects\Client\" />
+    <None Remove="DataTransferObjects\User\" />
+    <None Remove="DataTransferObjects\Role\" />
+    <None Remove="DataTransferObjects\Log\" />
+    <None Remove="DataTransferObjects\LogCatalog\" />
+    <None Remove="DataTransferObjects\UserAccountMember\" />
+    <None Remove="DataTransferObjects\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="DataTransferObjects\" />
+    <Folder Include="DataTransferObjects\Account\" />
+    <Folder Include="DataTransferObjects\Client\" />
+    <Folder Include="DataTransferObjects\User\" />
+    <Folder Include="DataTransferObjects\Role\" />
+    <Folder Include="DataTransferObjects\Log\" />
+    <Folder Include="DataTransferObjects\LogCatalog\" />
+    <Folder Include="DataTransferObjects\UserAccountMember\" />
+    <Folder Include="DataTransferObjects\Login\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.0" />

@@ -25,6 +25,8 @@ public partial class User
 
     public int RoleId { get; set; }
 
+    public virtual ICollection<Log> Logs { get; } = new List<Log>();
+
     public virtual Role Role { get; set; } = null!;
 
     public virtual ICollection<UserAccountMember> UserAccountMembers { get; } = new List<UserAccountMember>();

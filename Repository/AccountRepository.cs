@@ -11,7 +11,7 @@ namespace Repository
 			:base(operationsContext)
 		{
 		}
-        public async Task<IEnumerable<Account>> FindAllInclude() => await OperationsContext.Set<Account>().Include(x=> x.Client).AsNoTracking().ToListAsync();
+        public async Task<IEnumerable<Account>> FindAllInclude() => await OperationsContext.Set<Account>().Include(x=> x.Client).Include(x=>x.UserAccountMembers).ThenInclude(x=>x.User).AsNoTracking().ToListAsync();
     }
 }
 
